@@ -1,0 +1,63 @@
+table, th, td{
+  border: 3px solid #fff;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 3rem;
+  padding: .5rem;
+}
+th{
+  background-color: white;
+  border-color: #5F7190;
+  color: #5F7190;
+  width: 250px;
+}
+.tabel{
+  display: flex;
+  justify-content: center;
+}
+
+input[type='submit']{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height:50px;
+  padding: 10px;
+  font-size:1rem;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  left:0;
+  right: 0;
+}
+@media only screen and (max-width:700px){
+  table{
+    max-width: 95% !important;
+    }
+  table, th, td{
+    border: 1.5px solid #fff;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: .5rem;
+    padding: .5rem;
+    font-weight: bold;
+  }
+  th{
+    background-color: white;
+    border-color: #5F7190;
+    color: #5F7190;
+    width: 150px !important;
+  }
+  .tabel{
+    display: flex;
+    justify-content: center;
+  }
+  form{
+    justify-content: center;
+  }
+  form, .form-fields {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
